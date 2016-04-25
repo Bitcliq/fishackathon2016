@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:me="clr-namespace:PinFixed;assembly=PinFixed"
+             x:Class="PinFixed.StartPage" >
+ 
+    <RelativeLayout x:Name="rl">
+
+
+
+      <Grid RelativeLayout.WidthConstraint=
+              "{ConstraintExpression Type=RelativeToParent, Property=Width}"
+              RelativeLayout.HeightConstraint=
+              "{ConstraintExpression Type=RelativeToParent, Property=Height}">
+
+
+        <StackLayout x:Name="sl">
+          <Image Source="logo.png"  VerticalOptions="CenterAndExpand" HorizontalOptions="Center"  />
+
+          <me:RoundButton x:Name="rbv" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" WidthRequest="120" HeightRequest="50"
+                    Stroke="Green" StrokeThickness="50" CornerRadius="50"
+                          Text="Report" FontSize="20" TextColor="White"
+                   BackgroundColor="#74a633" Clicked="OnButtonClicked"  />
+
+
+         
+          
+          <StackLayout   HorizontalOptions="Center" VerticalOptions="End">
+
+            <Image Source="powered_by.png"  VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand" />
+
+          </StackLayout>
+        </StackLayout>
+     
+      </Grid>
+     
+    </RelativeLayout>
+
+ 
+</ContentPage>

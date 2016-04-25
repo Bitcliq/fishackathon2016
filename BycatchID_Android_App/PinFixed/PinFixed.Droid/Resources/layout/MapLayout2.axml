@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:id="@+id/tool"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp">
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tableLayout1">
+            <TableRow
+                android:id="@+id/tableRowData1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10.0dp"
+                android:paddingBottom="10.0dp"
+                android:background="@color/fix">
+                <LinearLayout
+                    android:id="@+id/tool"
+                    android:layout_width="match_parent">
+                    <ImageView
+                        android:src="@drawable/back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageViewBack" />
+                    <ImageView
+                        android:src="@drawable/btn_home"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageViewHome" />
+                </LinearLayout>
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRowData2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="0.0dp"
+                    android:textColor="#FFFFFF"
+                    android:lines="5"
+                    android:maxLines="5"
+                    android:text="Select a location in the map" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    <fragment
+        android:id="@+id/mapTest"
+        android:layout_width="match_parent"
+        android:layout_height="398.5dp"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_marginTop="150.0dp"
+        android:layout_marginBottom="50.0dp"
+        android:layout_above="@+id/main" />
+    <LinearLayout
+        android:id="@+id/mainButtons"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnT"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Select location" />
+    </LinearLayout>
+</RelativeLayout>
