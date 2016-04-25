@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BIR</title>
+    <link rel="stylesheet" href="assets/css/styles.css?=113">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet'
+        type='text/css'>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries. Placeholdr.js enables the placeholder attribute -->
+    <!--[if lt IE 9]>
+        <link rel="stylesheet" href="css/ie8.css">
+		<script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+        
+	<![endif]-->
+    <!-- The following CSS are included as plugins and can be removed if unused-->
+    <link rel='stylesheet' type='text/css' href='assets/plugins/form-daterangepicker/daterangepicker-bs3.css' />
+    <link rel='stylesheet' type='text/css' href='assets/plugins/fullcalendar/fullcalendar.css' />
+    <link rel='stylesheet' type='text/css' href='assets/plugins/form-markdown/css/bootstrap-markdown.min.css' />
+    <link rel='stylesheet' type='text/css' href='assets/plugins/codeprettifier/prettify.css' />
+    <link rel='stylesheet' type='text/css' href='assets/plugins/form-toggle/toggles.css' />
+
+    <script type='text/javascript' src='assets/js/jquery-1.10.2.min.js'></script>
+
+    <script type='text/javascript' src='assets/js/jqueryui-1.10.3.min.js'></script>
+
+    <script src="http://code.jquery.com/jquery-migrate-1.0.0.js"></script>
+
+    <script type='text/javascript' src='assets/js/bootstrap.min.js'></script>
+
+    <script type='text/javascript' src='assets/js/enquire.js'></script>
+
+    <script type='text/javascript' src='assets/js/jquery.cookie.js'></script>
+
+    <script type='text/javascript' src='assets/js/jquery.nicescroll.min.js'></script>
+
+    <script type='text/javascript' src='assets/plugins/codeprettifier/prettify.js'></script>
+
+    <link rel='stylesheet' type='text/css' href='assets/plugins/pines-notify/jquery.pnotify.default.css' />
+
+    <script type='text/javascript' src='assets/plugins/pines-notify/jquery.pnotify.min.js'></script>
+
+
+
+    <script type="text/javascript" src="assets/file-uploader/fileuploader.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="assets/file-uploader/fileuploader.css" />
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=&sensor=false"></script>
+    <script>
+
+        function showError(err) {
+            //alert('err');
+            //$.pnotify({
+            //    title: 'Erro!',
+            //    text: err,
+            //    type: 'error',
+            //    hide: false
+            //});
+            $('#dvError').html('<strong>' + err + '</strong><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>');
+            $('#dvError').show();
+
+
+        }
+        function showSuccess(err) {
+            //alert('aaa');
+            //$.pnotify({
+            //    title: 'Erro!',
+            //    text: err,
+            //    type: 'error',
+            //    hide: false
+            //});
+
+            $('#dvSuccess').html('<strong>' + err + '</strong><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>');
+            $('#dvSuccess').show();
+        }
+    </script>
+</head>
+<body >
+    <form id="form1" >
+
+	
+                         
+						 
+                                <div id="file-uploader">
+                                    Seleccione um ficheiro
+                                </div>
+                                <img src="" id="imgTemp" class="img-rounded img-responsive" style="display: none;" />
+                          
+						  
+    </form>
+ 
+ 
+    <script>
+
+
+
+
+
+        var geocoder;
+        var map;
+        var marker;
+        var geocoding = false;
+
+        var changedMarkerPosition = false;
+        var geocoder;
+        var map;
+        
+		
+
+      
+	  
+
+        $(document).ready(function () {
+
+         
+		 
+            upload = new qq.FileUploader({
+                element: document.getElementById('file-uploader'),
+                action: 'Upload.ashx',
+                name: 'myFile',
+                onComplete: function (id, fileName, response) {
+                    
+                    if (response.resp == 'OK') {
+
+                        $('#imgTemp').attr('src', response.data);
+                        $('#imgTemp').show();
+                    }
+                    else {
+
+                        $.pnotify({
+                            title: 'Erro!',
+                            text: response.data,
+                            type: 'error',
+                            hide: false
+                        });
+                    }
+                }
+
+            });
+
+         
+		 
+        });
+
+    </script>
+</body>
+</html>

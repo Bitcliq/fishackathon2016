@@ -1,0 +1,83 @@
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Bitcliq.BIR.Portal.dll
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Bitcliq.BIR.Portal.XmlSerializers.dll
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Bitcliq.BIR.Portal.pdb
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Bitcliq.BIR.Logs.dll
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Bitcliq.BIR.Platform.dll
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Bitcliq.BIR.Utils.dll
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\log4net.dll
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Newtonsoft.Json.dll
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\MakeSoftware.Security.dll
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Bitcliq.BIR.Logs.pdb
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Bitcliq.BIR.Platform.pdb
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Bitcliq.BIR.Utils.pdb
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Newtonsoft.Json.xml
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\obj\Release\Bitcliq.BIR.Portal.csprojResolveAssemblyReference.cache
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\obj\Release\Bitcliq.BIR.Portal.dll
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\obj\Release\Bitcliq.BIR.Portal.pdb
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\obj\Release\Bitcliq.BIR.Portal.XmlSerializers.dll
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\HtmlRenderer.dll
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\HtmlRenderer.PdfSharp.dll
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\PdfSharp.Charting.dll
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\PdfSharp.dll
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\HtmlRenderer.pdb
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\HtmlRenderer.PdfSharp.pdb
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\PdfSharp.xml
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\PdfSharp.Charting.xml
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\de\PdfSharp.resources.dll
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\de\PdfSharp.Charting.resources.dll
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Bitcliq.BIR.Portal.dll.config
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Bitcliq.BIR.Portal.dll
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Bitcliq.BIR.Portal.XmlSerializers.dll
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Bitcliq.BIR.Portal.pdb
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Bitcliq.BIR.Logs.dll
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Bitcliq.BIR.Platform.dll
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Bitcliq.BIR.Utils.dll
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\HtmlRenderer.dll
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\HtmlRenderer.PdfSharp.dll
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\log4net.dll
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Newtonsoft.Json.dll
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\PdfSharp.Charting.dll
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\PdfSharp.dll
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\MakeSoftware.Security.dll
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Bitcliq.BIR.Logs.pdb
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Bitcliq.BIR.Platform.pdb
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Bitcliq.BIR.Utils.pdb
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\HtmlRenderer.pdb
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\HtmlRenderer.PdfSharp.pdb
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Newtonsoft.Json.xml
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\PdfSharp.xml
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\PdfSharp.Charting.xml
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\de\PdfSharp.resources.dll
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\de\PdfSharp.Charting.resources.dll
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\obj\Release\Bitcliq.BIR.Portal.csprojResolveAssemblyReference.cache
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\obj\Release\Bitcliq.BIR.Portal.dll
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\obj\Release\Bitcliq.BIR.Portal.pdb
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Portal\obj\Release\Bitcliq.BIR.Portal.XmlSerializers.dll
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Bitcliq.BIR.Portal.dll.config
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Bitcliq.BIR.Portal.dll
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Bitcliq.BIR.Portal.XmlSerializers.dll
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Bitcliq.BIR.Portal.pdb
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Bitcliq.BIR.Logs.dll
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Bitcliq.BIR.Platform.dll
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Bitcliq.BIR.Utils.dll
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\HtmlRenderer.dll
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\HtmlRenderer.PdfSharp.dll
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\log4net.dll
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Newtonsoft.Json.dll
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\PdfSharp.Charting.dll
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\PdfSharp.dll
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\MakeSoftware.Security.dll
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Bitcliq.BIR.Logs.pdb
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Bitcliq.BIR.Platform.pdb
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Bitcliq.BIR.Utils.pdb
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\HtmlRenderer.pdb
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\HtmlRenderer.PdfSharp.pdb
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\Newtonsoft.Json.xml
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\PdfSharp.xml
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\PdfSharp.Charting.xml
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\de\PdfSharp.resources.dll
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Portal\bin\de\PdfSharp.Charting.resources.dll
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Portal\obj\Release\Bitcliq.BIR.Portal.csprojResolveAssemblyReference.cache
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Portal\obj\Release\Bitcliq.BIR.Portal.dll
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Portal\obj\Release\Bitcliq.BIR.Portal.pdb
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Portal\obj\Release\Bitcliq.BIR.Portal.XmlSerializers.dll

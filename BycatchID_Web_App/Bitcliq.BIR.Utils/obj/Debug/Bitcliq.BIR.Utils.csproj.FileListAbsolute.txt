@@ -1,0 +1,11 @@
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Utils\bin\Debug\Bitcliq.BIR.Utils.dll
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Utils\bin\Debug\Bitcliq.BIR.Utils.pdb
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Utils\bin\Debug\MakeSoftware.Security.dll
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Utils\obj\Debug\Bitcliq.BIR.Utils.csprojResolveAssemblyReference.cache
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Utils\obj\Debug\Bitcliq.BIR.Utils.dll
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Utils\obj\Debug\Bitcliq.BIR.Utils.pdb
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Utils\bin\Debug\Bitcliq.BIR.Utils.dll
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Utils\bin\Debug\Bitcliq.BIR.Utils.pdb
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Utils\bin\Debug\MakeSoftware.Security.dll
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Utils\obj\Debug\Bitcliq.BIR.Utils.dll
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Utils\obj\Debug\Bitcliq.BIR.Utils.pdb

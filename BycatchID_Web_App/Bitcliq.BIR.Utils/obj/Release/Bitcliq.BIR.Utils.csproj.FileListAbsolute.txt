@@ -1,0 +1,17 @@
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Utils\bin\Release\Bitcliq.BIR.Utils.dll
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Utils\bin\Release\Bitcliq.BIR.Utils.pdb
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Utils\bin\Release\MakeSoftware.Security.dll
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Utils\obj\Release\Bitcliq.BIR.Utils.csprojResolveAssemblyReference.cache
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Utils\obj\Release\Bitcliq.BIR.Utils.dll
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Utils\obj\Release\Bitcliq.BIR.Utils.pdb
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Utils\bin\Release\Bitcliq.BIR.Utils.dll
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Utils\bin\Release\Bitcliq.BIR.Utils.pdb
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Utils\bin\Release\MakeSoftware.Security.dll
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Utils\obj\Release\Bitcliq.BIR.Utils.dll
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Utils\obj\Release\Bitcliq.BIR.Utils.pdb
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Utils\bin\Release\Bitcliq.BIR.Utils.dll
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Utils\bin\Release\Bitcliq.BIR.Utils.pdb
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Utils\bin\Release\MakeSoftware.Security.dll
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Utils\obj\Release\Bitcliq.BIR.Utils.csprojResolveAssemblyReference.cache
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Utils\obj\Release\Bitcliq.BIR.Utils.dll
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Utils\obj\Release\Bitcliq.BIR.Utils.pdb

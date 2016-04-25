@@ -1,0 +1,32 @@
+﻿<script>
+  jQuery(document).ready(function() { 
+    
+	var data = [
+        { label: "Reportados: <!--@Reported-->",  data:  <!--@Reported-->, color:"#F00"},
+        { label: "Resolvidos: <!--@Resolved-->",  data:  <!--@Resolved-->, color:"#2D78D5"}
+    ];
+ 
+
+   //$("#graph1").sparkline([<!--@Reported-->,<!--@Resolved-->], {type: 'pie', height: '300px'});
+
+
+      $.plot($("#graph1Mine"), data,
+            {
+                series: {
+                        pie: {
+                                show: true
+                        }
+                },
+                /*grid: {
+                        hoverable: true,
+                        clickable: true
+                },*/
+                legend: {
+                    show: false
+                }
+            });
+
+
+  
+  });
+</script>

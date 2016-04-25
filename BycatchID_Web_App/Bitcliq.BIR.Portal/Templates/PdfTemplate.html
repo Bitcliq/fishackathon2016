@@ -1,0 +1,133 @@
+﻿<html>
+
+<head>
+    <title></title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        .wrapper {
+            min-height: 100%;
+            height: auto !important;
+            height: 100%;
+            margin: 0 auto -4em;
+        }
+
+        .footer, .push {
+            height: 2em;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <table width="100%" cellspacing="0" cellpadding="0">
+            <tr>
+                <td></td>
+                <td colspan="2">
+                    <h4>ByCatchID Desk - Report</h4>
+                </td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td colspan="4" height="10px"></td>
+            </tr>
+            <tr>
+
+                <td width="10%"></td>
+                <td colspan="2" style="text-align: center;" width="80%">
+                    <img src="<!--@ImgSrc-->" style="width: 300px;" />
+                </td>
+                <td width="10%"></td>
+            </tr>
+            <tr>
+                <td colspan="4" height="20px"></td>
+            </tr>
+
+            <tr>
+                <td width="10%"></td>
+                <td style="text-align: right;" width="40%">
+                    Reported by:&nbsp;
+                </td>
+                <td style="text-align: left; background-color:#EDEEF0;" width="40%">
+                    &nbsp;&nbsp;<!--@Reporter-->
+                    on day
+                    <!--@Date-->
+                    at
+                    <!--@Hours-->
+                </td>
+                <td width="10%"></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td style="text-align: right;">
+                    Fish Type&nbsp;
+                </td>
+                <td style="text-align: left; background-color:#EDEEF0;">
+                    &nbsp;&nbsp;<!--@Type-->
+                </td>
+                <td></td>
+            </tr>
+          
+		  
+           
+            <tr>
+                <td></td>
+                <td style="text-align: right;">
+                    Subject:&nbsp;
+                </td>
+                <td style="text-align: left; background-color:#EDEEF0;">
+                    &nbsp;&nbsp;<!--@Subject-->
+                </td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td style="text-align: right;">
+                    Message:&nbsp;
+                </td>
+                <td style="text-align: left; background-color:#EDEEF0;">
+                    &nbsp;&nbsp;<!--@Message-->
+                </td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td style="text-align: right;" valign="top">
+                   Probable Location:&nbsp;
+                </td>
+                <td style="text-align: left; background-color:#EDEEF0;">
+                    &nbsp;&nbsp;<!--@Address-->
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="4" height="20px"></td>
+            </tr>
+
+            <tr>
+
+                <td width="10%"></td>
+                <td colspan="2" style="text-align: center;<!--@Display-->" width="80%">
+                    <img src="<!--@GoogleSrc-->" style="width: 300px;" />
+                </td>
+                <td width="10%"></td>
+            </tr>
+        </table>
+        <div class="push"></div>
+    </div>
+    <div class="footer">
+        <p>Powered by PinFixed</p>
+    </div>
+</body>
+</html>

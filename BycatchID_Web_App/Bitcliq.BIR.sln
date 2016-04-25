@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bitcliq.BIR.Platform", "Bitcliq.BIR.Platform\Bitcliq.BIR.Platform.csproj", "{D2221664-9735-44A0-BE70-A29B61BE389F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bitcliq.BIR.Utils", "Bitcliq.BIR.Utils\Bitcliq.BIR.Utils.csproj", "{0ACA2B47-ADEB-48C0-8E1F-9185A99210EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bitcliq.BIR.Logs", "Bitcliq.BIR.Logs\Bitcliq.BIR.Logs.csproj", "{786054E6-00B5-4A86-A2B2-F4625F1F4C40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bitcliq.BIR.Portal", "Bitcliq.BIR.Portal\Bitcliq.BIR.Portal.csproj", "{442EFE04-C6DD-4858-AC9D-24A1EBF18695}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2221664-9735-44A0-BE70-A29B61BE389F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2221664-9735-44A0-BE70-A29B61BE389F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2221664-9735-44A0-BE70-A29B61BE389F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2221664-9735-44A0-BE70-A29B61BE389F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ACA2B47-ADEB-48C0-8E1F-9185A99210EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ACA2B47-ADEB-48C0-8E1F-9185A99210EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ACA2B47-ADEB-48C0-8E1F-9185A99210EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ACA2B47-ADEB-48C0-8E1F-9185A99210EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{786054E6-00B5-4A86-A2B2-F4625F1F4C40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{786054E6-00B5-4A86-A2B2-F4625F1F4C40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{786054E6-00B5-4A86-A2B2-F4625F1F4C40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{786054E6-00B5-4A86-A2B2-F4625F1F4C40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{442EFE04-C6DD-4858-AC9D-24A1EBF18695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{442EFE04-C6DD-4858-AC9D-24A1EBF18695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{442EFE04-C6DD-4858-AC9D-24A1EBF18695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{442EFE04-C6DD-4858-AC9D-24A1EBF18695}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,39 @@
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Platform\bin\Release\Bitcliq.BIR.Platform.dll
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Platform\bin\Release\Bitcliq.BIR.Platform.pdb
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Platform\bin\Release\Bitcliq.BIR.Logs.dll
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Platform\bin\Release\Bitcliq.BIR.Utils.dll
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Platform\bin\Release\log4net.dll
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Platform\bin\Release\Newtonsoft.Json.dll
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Platform\bin\Release\MakeSoftware.Security.dll
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Platform\bin\Release\Bitcliq.BIR.Logs.pdb
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Platform\bin\Release\Bitcliq.BIR.Utils.pdb
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Platform\bin\Release\Newtonsoft.Json.xml
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Platform\obj\Release\Bitcliq.BIR.Platform.csprojResolveAssemblyReference.cache
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Platform\obj\Release\Bitcliq.BIR.Platform.dll
+D:\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Platform\obj\Release\Bitcliq.BIR.Platform.pdb
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Platform\bin\Release\Bitcliq.BIR.Platform.dll
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Platform\bin\Release\Bitcliq.BIR.Platform.pdb
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Platform\bin\Release\Bitcliq.BIR.Logs.dll
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Platform\bin\Release\Bitcliq.BIR.Utils.dll
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Platform\bin\Release\log4net.dll
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Platform\bin\Release\Newtonsoft.Json.dll
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Platform\bin\Release\MakeSoftware.Security.dll
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Platform\bin\Release\Bitcliq.BIR.Logs.pdb
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Platform\bin\Release\Bitcliq.BIR.Utils.pdb
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Platform\bin\Release\Newtonsoft.Json.xml
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Platform\obj\Release\Bitcliq.BIR.Platform.csprojResolveAssemblyReference.cache
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Platform\obj\Release\Bitcliq.BIR.Platform.dll
+F:\Projectos 2015\BIRT\PROJECT\Bitcliq.BIR\Bitcliq.BIR.Platform\obj\Release\Bitcliq.BIR.Platform.pdb
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Platform\bin\Release\Bitcliq.BIR.Platform.dll
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Platform\bin\Release\Bitcliq.BIR.Platform.pdb
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Platform\bin\Release\Bitcliq.BIR.Logs.dll
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Platform\bin\Release\Bitcliq.BIR.Utils.dll
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Platform\bin\Release\log4net.dll
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Platform\bin\Release\Newtonsoft.Json.dll
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Platform\bin\Release\MakeSoftware.Security.dll
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Platform\bin\Release\Bitcliq.BIR.Logs.pdb
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Platform\bin\Release\Bitcliq.BIR.Utils.pdb
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Platform\bin\Release\Newtonsoft.Json.xml
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Platform\obj\Release\Bitcliq.BIR.Platform.csprojResolveAssemblyReference.cache
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Platform\obj\Release\Bitcliq.BIR.Platform.dll
+F:\Projectos 2016\HACK\Bitcliq.BIR\Bitcliq.BIR.Platform\obj\Release\Bitcliq.BIR.Platform.pdb

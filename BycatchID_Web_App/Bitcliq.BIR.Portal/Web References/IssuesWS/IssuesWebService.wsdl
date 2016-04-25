@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="RegisterReporter">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Email" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PhoneNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="IPAddress" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RegisterReporterResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RegisterReporterResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoginReporter">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Email" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoginReporterResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LoginReporterResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoginUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Email" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoginUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LoginUserResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReportIssue">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AccountID" nillable="true" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ReporterID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="Subject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FileName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="File" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="FileType" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="FileLength" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="Latitude" nillable="true" type="s:decimal" />
+            <s:element minOccurs="1" maxOccurs="1" name="Longitude" nillable="true" type="s:decimal" />
+            <s:element minOccurs="1" maxOccurs="1" name="TypeID" nillable="true" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ImageRotation" nillable="true" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="Device" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReportIssueResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ReportIssueResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReportIssueAndRegisterUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ReporterID" nillable="true" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Email" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PhoneNumber" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="AccountID" nillable="true" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="Subject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FileName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="File" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="FileType" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="FileLength" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="Latitude" nillable="true" type="s:decimal" />
+            <s:element minOccurs="1" maxOccurs="1" name="Longitude" nillable="true" type="s:decimal" />
+            <s:element minOccurs="1" maxOccurs="1" name="TypeID" nillable="true" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ImageRotation" nillable="true" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="Device" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReportIssueAndRegisterUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ReportIssueAndRegisterUserResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CloseIssue">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AccountID" nillable="true" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="UserID" nillable="true" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ReporterID" nillable="true" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="IssueID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="InternalNotes" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FileName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="File" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="FileType" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="FileLength" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="Latitude" nillable="true" type="s:decimal" />
+            <s:element minOccurs="1" maxOccurs="1" name="Longitude" nillable="true" type="s:decimal" />
+            <s:element minOccurs="1" maxOccurs="1" name="ImageRotation" nillable="true" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CloseIssueResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CloseIssueResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMyIssues">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ReporterID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="AccountID" nillable="true" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="TypeID" nillable="true" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMyIssuesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMyIssuesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTypes">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AccountID" nillable="true" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTypesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTypesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="RegisterReporterSoapIn">
+    <wsdl:part name="parameters" element="tns:RegisterReporter" />
+  </wsdl:message>
+  <wsdl:message name="RegisterReporterSoapOut">
+    <wsdl:part name="parameters" element="tns:RegisterReporterResponse" />
+  </wsdl:message>
+  <wsdl:message name="LoginReporterSoapIn">
+    <wsdl:part name="parameters" element="tns:LoginReporter" />
+  </wsdl:message>
+  <wsdl:message name="LoginReporterSoapOut">
+    <wsdl:part name="parameters" element="tns:LoginReporterResponse" />
+  </wsdl:message>
+  <wsdl:message name="LoginUserSoapIn">
+    <wsdl:part name="parameters" element="tns:LoginUser" />
+  </wsdl:message>
+  <wsdl:message name="LoginUserSoapOut">
+    <wsdl:part name="parameters" element="tns:LoginUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="ReportIssueSoapIn">
+    <wsdl:part name="parameters" element="tns:ReportIssue" />
+  </wsdl:message>
+  <wsdl:message name="ReportIssueSoapOut">
+    <wsdl:part name="parameters" element="tns:ReportIssueResponse" />
+  </wsdl:message>
+  <wsdl:message name="ReportIssueAndRegisterUserSoapIn">
+    <wsdl:part name="parameters" element="tns:ReportIssueAndRegisterUser" />
+  </wsdl:message>
+  <wsdl:message name="ReportIssueAndRegisterUserSoapOut">
+    <wsdl:part name="parameters" element="tns:ReportIssueAndRegisterUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="CloseIssueSoapIn">
+    <wsdl:part name="parameters" element="tns:CloseIssue" />
+  </wsdl:message>
+  <wsdl:message name="CloseIssueSoapOut">
+    <wsdl:part name="parameters" element="tns:CloseIssueResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMyIssuesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMyIssues" />
+  </wsdl:message>
+  <wsdl:message name="GetMyIssuesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMyIssuesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTypesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTypes" />
+  </wsdl:message>
+  <wsdl:message name="GetTypesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTypesResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IssuesWebServiceSoap">
+    <wsdl:operation name="RegisterReporter">
+      <wsdl:input message="tns:RegisterReporterSoapIn" />
+      <wsdl:output message="tns:RegisterReporterSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LoginReporter">
+      <wsdl:input message="tns:LoginReporterSoapIn" />
+      <wsdl:output message="tns:LoginReporterSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LoginUser">
+      <wsdl:input message="tns:LoginUserSoapIn" />
+      <wsdl:output message="tns:LoginUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ReportIssue">
+      <wsdl:input message="tns:ReportIssueSoapIn" />
+      <wsdl:output message="tns:ReportIssueSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ReportIssueAndRegisterUser">
+      <wsdl:input message="tns:ReportIssueAndRegisterUserSoapIn" />
+      <wsdl:output message="tns:ReportIssueAndRegisterUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CloseIssue">
+      <wsdl:input message="tns:CloseIssueSoapIn" />
+      <wsdl:output message="tns:CloseIssueSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMyIssues">
+      <wsdl:input message="tns:GetMyIssuesSoapIn" />
+      <wsdl:output message="tns:GetMyIssuesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTypes">
+      <wsdl:input message="tns:GetTypesSoapIn" />
+      <wsdl:output message="tns:GetTypesSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="IssuesWebServiceSoap" type="tns:IssuesWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="RegisterReporter">
+      <soap:operation soapAction="http://tempuri.org/RegisterReporter" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoginReporter">
+      <soap:operation soapAction="http://tempuri.org/LoginReporter" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoginUser">
+      <soap:operation soapAction="http://tempuri.org/LoginUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReportIssue">
+      <soap:operation soapAction="http://tempuri.org/ReportIssue" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReportIssueAndRegisterUser">
+      <soap:operation soapAction="http://tempuri.org/ReportIssueAndRegisterUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CloseIssue">
+      <soap:operation soapAction="http://tempuri.org/CloseIssue" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMyIssues">
+      <soap:operation soapAction="http://tempuri.org/GetMyIssues" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTypes">
+      <soap:operation soapAction="http://tempuri.org/GetTypes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="IssuesWebServiceSoap12" type="tns:IssuesWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="RegisterReporter">
+      <soap12:operation soapAction="http://tempuri.org/RegisterReporter" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoginReporter">
+      <soap12:operation soapAction="http://tempuri.org/LoginReporter" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoginUser">
+      <soap12:operation soapAction="http://tempuri.org/LoginUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReportIssue">
+      <soap12:operation soapAction="http://tempuri.org/ReportIssue" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReportIssueAndRegisterUser">
+      <soap12:operation soapAction="http://tempuri.org/ReportIssueAndRegisterUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CloseIssue">
+      <soap12:operation soapAction="http://tempuri.org/CloseIssue" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMyIssues">
+      <soap12:operation soapAction="http://tempuri.org/GetMyIssues" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTypes">
+      <soap12:operation soapAction="http://tempuri.org/GetTypes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="IssuesWebService">
+    <wsdl:port name="IssuesWebServiceSoap" binding="tns:IssuesWebServiceSoap">
+      <soap:address location="http://localhost:56223/IssuesWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="IssuesWebServiceSoap12" binding="tns:IssuesWebServiceSoap12">
+      <soap12:address location="http://localhost:56223/IssuesWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
